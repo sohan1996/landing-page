@@ -1,0 +1,123 @@
+.container{
+  height: 700px;
+  width: 100%;
+  background-color: #e0f6f7;
+  position: relative;
+}
+.container-in{
+  height: 700px;
+  width: 80%;
+  background-color: #affcff;
+  border-radius: 300px 0 0 300px;
+  position: absolute;
+  left:20%;
+  top: 0;
+}
+.button{
+  background: linear-gradient(45deg, #269ceb, #8e00c6);
+  height: 30px;
+  width: 150px;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+.button:hover{
+  background: linear-gradient(-45deg, #269ceb, #8e00c6);
+  transition: 0.3s all ease;
+}
+.color{
+  color: #fff;
+}
+.name{
+  position: absolute;
+  left: 20px;
+}
+.span{
+  font-family: 'Caveat';
+  font-size: 80px;
+  color: #ff33ff;
+}
+h1{
+  margin: 0 ;
+  font-family: sans-serif;
+  color:  #4d4d4d;
+}
+h5, h3{
+  margin: 0;
+  font-family: sans-serif;
+  text-align: right;
+}
+h3{
+  text-align: center;
+  margin-top: 5px;
+}
+.name-in{
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  font-size: 50px;
+}
+ul li{
+  list-style-type: none;
+  padding: 5px 60px 5px 60px;
+  border-radius: 5px;
+  background-color: #8dffe1;
+  color: #003333;
+  float: left;
+}
+ul li:hover{
+  background-color: #d5f2f3;
+}
+a{
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.pic{
+  width: 45%;
+  border-radius: 20px;
+  position: absolute;
+  right: 140px;
+  top: 60px;
+}
+.pic-in{
+  width: 115%;
+  border-radius: 150px 5px 5px 150px;
+}
+.down{
+  font-family: 'Caveat';
+  font-size: 50px;
+  color: 	 #4da6ff;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+.btn-1, .btn-2 {
+  width: 20%;
+  float: left;
+  margin: 2px;
+
+}
+.up-next, .next{
+  width:50px;
+}
+
+
+.social-media{
+  height: 166px;
+  width: 50px;
+  position: absolute;
+  top: 500px;
+  left: 10px;
+}
+.socil{
+  width: 98%;
+}
+.cart{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 90%;
+}
